@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/grafyInformatyka/static/css/main.23529d7a.css",
+    "main.js": "/grafyInformatyka/static/js/main.38596e39.js",
+    "static/media/Depth-First-Search.gif": "/grafyInformatyka/static/media/Depth-First-Search.a03c07b1db991d16679c.gif",
+    "static/media/Breadth-First-Search-Algorithm.gif": "/grafyInformatyka/static/media/Breadth-First-Search-Algorithm.ce715ca92ed78b502139.gif",
+    "index.html": "/grafyInformatyka/index.html",
+    "main.23529d7a.css.map": "/grafyInformatyka/static/css/main.23529d7a.css.map",
+    "main.38596e39.js.map": "/grafyInformatyka/static/js/main.38596e39.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23529d7a.css",
+    "static/js/main.38596e39.js"
+  ]
+}
