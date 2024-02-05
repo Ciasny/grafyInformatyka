@@ -15,10 +15,7 @@ const MainPage = ({ setPage, setAlgorithm }) => {
             <main className='flex justify-center items-center flex-col max-w-[50rem] m-auto my-[7rem]'>
 
                 <h1 className='text-4xl text-center'>Algorytmy przeszukiwania i znajdowania <br />najkrótszej ścieżki</h1>
-                <p className=' text-justify text-xl mt-5 mb-20'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem illum non doloremque id deserunt nisi cupiditate
-                    alias molestiae tempore hic eum quasi, at enim ipsa asperiores culpa unde? Dicta, blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Praesentium ullam, accusantium temporibus dolore dicta cumque velit suscipit, alias dolor facere voluptas quidem nemo consectetur ipsam eligendi voluptatum
-                    veritatis. Architecto, vel.</p>
+                <p className=' text-justify text-xl mt-5 mb-20'>To techniki matematyczne używane do efektywnego odnajdywania optymalnych tras między wierzchołkami w grafie. Służą do rozwiązania problemu znalezienia najkrótszej ścieżki pomiędzy dwoma wierzchołkami, minimalizując koszty lub czas przejścia. Te algorytmy są powszechnie wykorzystywane w dziedzinach takich jak grafika komputerowa, logistyka czy sieci komunikacyjne, aby znaleźć najbardziej optymalne trasy w skomplikowanych strukturach danych.</p>
                 {/* DFS */}
                 <div className='flex justify-center items-center flex-col mb-[10rem]'>
                     <h2 className='text-3xl '>DFS</h2>
@@ -55,9 +52,9 @@ const MainPage = ({ setPage, setAlgorithm }) => {
                     <button className='bg-neutral-500 text-white px-5 py-3 rounded-2xl' onClick={() => {
                         setPage('algorithm')
                         setAlgorithm('Dijkstry')
-                    }}>Przejdź do gry</button>
+                    }}>Zobacz Więcej</button>
                 </div>
-
+                <a href="https://ciasny.github.io/GrafyOM/" className='underline mt-5'>Jeśli chcesz wiedzieć więcej o grafach kliknij w ten link</a>
             </main>
             <Footer />
         </>
