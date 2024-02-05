@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import MainPage from './MainPage'
+import AlgorithmPage from './AlgorithmPage'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    const [page, setPage] = useState('main')
+    const [algorithm, setAlgorithm] = useState('')
+    return (
+        <div>
+            {page === 'main' ? <MainPage setPage={setPage} setAlgorithm={setAlgorithm} /> : <AlgorithmPage setPage={setPage} setAlgorithm={setAlgorithm} algorithm={algorithm} />}
+        </div>
+    )
 }
 
-export default App;
+export default App
